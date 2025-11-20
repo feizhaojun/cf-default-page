@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Default Page</title>
+    <meta type="description" content="页面已经转移。" />
+    <link type="text/css" rel="stylesheet" href="//feizhaojun.com/style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      body {
+        text-align: center;
+        background: #fff;
+        padding-top: 120px;
+        font-size: 12px;
+        font-family: Microsoft Yahei;
+        color: #666;
+        line-height: 22px;
+        font-family: Arial, Microsoft Yahei;
+      }
+      a {
+        color: #546188;
+      }
+      a:hover {
+        color: #ff4e00;
+      }
+    </style>
+    <!-- <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"K4gTVPNieQos2rvT",ck:"K4gTVPNieQos2rvT"})</script> -->
+  </head>
+  <body>
+    <div id="content">
+      <br /><br />
+      我暂时还没有想好这个域名做什么用。
+      <br /><br />
+      域名购买等事宜，悉请<a href="https://feizhaojun.com/contact.html"
+        >联系管理员</a
+      >。
+    </div>
+    <script>
+      if (
+        /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/.test(window.location.host) ||
+        /^.*?mock\.link$/.test(window.location.host)
+      ) {
+        document.getElementById("content").innerHTML =
+          "这是一个服务器默认页面，不包括任何内容。";
+      }
+    </script>
+  </body>
+</html>
